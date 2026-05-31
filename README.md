@@ -25,11 +25,11 @@ Replaced random triplet selection with semi-hard mining, where for each anchor-p
 
 ## Results
 
-| Experiment | Sampling Strategy | Retrieval Accuracy | Notes |
-|---|---|---|---|
-| 1 — Sanity Check | Random | _add_ | Validated end-to-end pipeline |
-| 2 — Baseline | Random | _add_ | First clean train/val measurement |
-| 3 — Semi-Hard Mining | Semi-hard | _add_ | Best generalization, sharper embeddings |
+| Experiment | Sampling Strategy | P@1 | P@5 | P@10 | Notes |
+|---|---|---:|---:|---:|---|
+| 1 — Sanity Check | Random | 0.471 | 0.766 | 0.858 | Validated end-to-end retrieval pipeline and embedding learning |
+| 2 — Baseline | Random | 0.582 | 0.831 | 0.902 | First clean train/validation evaluation |
+| 3 — Semi-Hard Mining | Semi-hard | **0.673** | **0.871** | **0.926** | Best validation performance and strongest generalization |
 
 *Replace placeholders with your actual metrics (e.g., Recall@1, Recall@5, mAP).*
 
