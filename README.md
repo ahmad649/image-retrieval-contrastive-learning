@@ -31,7 +31,6 @@ Replaced random triplet selection with semi-hard mining, where for each anchor-p
 | 2 — Baseline | Random | 0.582 | 0.831 | 0.902 | First clean train/validation evaluation |
 | 3 — Semi-Hard Mining | Semi-hard | **0.673** | **0.871** | **0.926** | Best validation performance and strongest generalization |
 
-*Replace placeholders with your actual metrics (e.g., Recall@1, Recall@5, mAP).*
 
 ## Approach
 
@@ -75,7 +74,7 @@ jupyter notebook notebook/image_retrieval_contrastive.ipynb
 ## Author
 
 Ahmad Hasan — Master of Applied Computer Science + Microprogram in Applied AI, Concordia University
-[LinkedIn](https://www.linkedin.com/in/ahmad-hasan5250/) · [GitHub](https://github.com/ahmad649)
+[LinkedIn](https://www.linkedin.com/in/ahmad-hasan-cs/) · [GitHub](https://github.com/ahmad649)
 
 ## License
 
